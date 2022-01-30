@@ -37,6 +37,7 @@ export const HeroContainer = styled.div < Props >`
 export const HeroH1 = styled.h1 < Props > `
   font-size: 42px;
   z-index: 2;
+  color: #fff;
   font-family: 'Outfit-Bold';
   text-align: center;
   @media screen and (max-width: 480px) {
