@@ -2,14 +2,10 @@ import type { NextPage } from 'next'
 import { useRouter } from 'next/router'
 
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { LandingNav } from '../components/common/NavBar/LandingNav'
 import { Grid, VStack, Text, Flex } from '@chakra-ui/react'
 import {HeroContainer, HeroContent, HeroRugs, HeroRugsText} from '../components/common/AnimatedText/AnimatedText'
 import {motion, AnimatePresence } from 'framer-motion'
 import {useState, useEffect} from 'react'
-import { ArrowLeftIcon } from '@chakra-ui/icons'
 
 type Props = {
   className?: string,
