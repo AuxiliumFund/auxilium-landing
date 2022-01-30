@@ -10,6 +10,10 @@ import {HeroContainer, HeroContent, HeroRugs, HeroRugsText} from '../components/
 import {motion, AnimatePresence } from 'framer-motion'
 import {useState, useEffect} from 'react'
 import { ArrowLeftIcon } from '@chakra-ui/icons'
+type Props = {
+  className?: string,
+}
+
 
 const Balance: NextPage<Props> = ({ className , ...props}) => {
   const initial = { opacity : 0 };

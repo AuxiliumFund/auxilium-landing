@@ -27,7 +27,7 @@ const Vision: NextPage<Props> = ({ className , ...props}) => {
 
   }
 
-  function sleep(ms) {
+  function sleep(ms:any) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 

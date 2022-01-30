@@ -22,7 +22,7 @@ const HeroSection : NextPage<Props> = ({ className , ...props}) => {
   const [changeRoute, setChangeRoute] = useState(0)
   const [opacitySet, setOpacity] = useState(1)
 
-  function sleep(ms) {
+  function sleep(ms:any) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 

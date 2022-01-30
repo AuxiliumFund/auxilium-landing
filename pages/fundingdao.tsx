@@ -11,6 +11,11 @@ import {motion, AnimatePresence } from 'framer-motion'
 import {useState, useEffect} from 'react'
 import { ArrowLeftIcon } from '@chakra-ui/icons'
 
+type Props = {
+  className?: string,
+}
+
+
 const FundingDAO: NextPage<Props> = ({ className , ...props}) => {
   const initial = { opacity : 0 };
   const animate = { opacity : 1};
@@ -27,7 +32,7 @@ const FundingDAO: NextPage<Props> = ({ className , ...props}) => {
 
   }
 
-  function sleep(ms) {
+  function sleep(ms:any) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
