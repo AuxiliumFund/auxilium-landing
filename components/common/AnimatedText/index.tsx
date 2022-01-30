@@ -23,7 +23,7 @@ const AnimatedText : NextPage<Props> = ({ className , ...props}) => {
   return (
         <HeroContainer className={className}>
             <HeroContent as={motion.div} >
-              <Button onClick={() => router.push('/')} _focus="" variant='link'>
+              <Button onClick={() => router.push('/')} variant='link'>
               <motion.div    whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
                 <ArrowLeftIcon > </ArrowLeftIcon>
                 </motion.div>
