@@ -48,7 +48,7 @@ const HeroSection : NextPage<Props> = ({ className , ...props}) => {
         <HeroContent as={motion.div} initial={ {opacity : 1 }} animate={{ x : changeRoute , opacity : opacitySet}} transition={{ease: "anticipate", duration:1.8 }} >
             <HeroH1>Auxilium</HeroH1>
             <HeroP >
-                Welcome to Auxilium, where we help you get above water.
+              Welcome to Auxilium, where we help you stay afloat.
             </HeroP>
             <HStack gap={4}>
             <motion.div     whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
