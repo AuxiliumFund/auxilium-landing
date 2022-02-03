@@ -56,10 +56,10 @@ const RugProtect: NextPage<Props> = ({ className , ...props}) => {
               
             <VStack >
             <HeroRugs as={motion.div} initial={initial} animate={animate} transition={{ease: "anticipate", duration:1 }} >
-            Too many rugs and slow rugs.
+            Compensation for rug-pull victims.
             </HeroRugs>
             <HeroRugs as={motion.div} initial={initial} animate={animate} transition={{ease: "anticipate", duration:2 }} >
-            Too many liquidations.
+            Working your way back up.
             </HeroRugs>
             </VStack>
             

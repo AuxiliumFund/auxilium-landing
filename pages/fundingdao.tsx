@@ -60,7 +60,7 @@ const FundingDAO: NextPage<Props> = ({ className , ...props}) => {
             { showText &&
 
             <HeroRugsText as={motion.div} initial={initial} animate={animate} transition={{ease: "anticipate", duration:1 }} exit={exit} >
-            We are offering a rebase DAO model for funding, <br/> as most our team right now is working pro bono. <br/> 
+            We are offering bonds for funding, <br/> as our team right now is working pro bono. <br/> 
             We dont expect anything more than support for features that benefit the DeFi space.
              <br/><br/> 
 

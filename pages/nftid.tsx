@@ -66,9 +66,9 @@ const Vision: NextPage<Props> = ({ className , ...props}) => {
             { showText &&
 
             <HeroRugsText as={motion.div} initial={initial} animate={animate} transition={{ease: "anticipate", duration:1 }} exit={exit} >
-            Our first feature is going to provide identity to those who have been rugged.
+            Our first feature is going to provide identity to those who have been scammed.
              <br/><br/> 
-            We will also provide additional benefits to those that stake in our funding while using this NFT.
+            We will also provide additional benefits to those that stake our NFTs on our protocol.
             </HeroRugsText > 
 
             }

@@ -67,8 +67,6 @@ const Balance: NextPage<Props> = ({ className , ...props}) => {
 
             <HeroRugsText as={motion.div} initial={initial} animate={animate} transition={{ease: "anticipate", duration:1 }} exit={exit} >
             We plain to thrive with governance-made decisions that aim for balance. <br/> Being sustainable is one of our main goals.
-             <br/><br/> 
-            We had enough of insiders and suits acting as frogs.
             </HeroRugsText > 
 
             }
