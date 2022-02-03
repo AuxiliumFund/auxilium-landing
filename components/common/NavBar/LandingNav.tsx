@@ -8,7 +8,7 @@ import { useRouter } from 'next/router'
 const navbar = [
   {
     label: 'Docs',
-    href: 'https://docs.auxilium.finance/',
+    href: 'https://docs.auxilium.fund/',
   },
 
 ]
